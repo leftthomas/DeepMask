@@ -55,6 +55,7 @@ Make a dir named 'coco', go inside and make two dir named 'images' and 'annotati
 Unzip '2014 Training images' to dir 'images', '2014 Train/Val object instances' to dir 'annotations'.
 
 Run 
+
 `cd DeepMask\`
 
 `python main.py`
