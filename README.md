@@ -1,5 +1,5 @@
 # DeepMask
-An realization of DeepMask by Python3.
+The algorithm of DeepMask by Python3.
 
 ## Requirements
 ANACONDA、Keras、OpenCV3、mscoco
