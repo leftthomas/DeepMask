@@ -1,7 +1,7 @@
 # DeepMask
 An realization of DeepMask by Python3.
 
-## Requirement
+## Requirements
 ANACONDA、Keras、OpenCV3、mscoco
 
 Here is the instructions to install them all:
@@ -32,7 +32,7 @@ Here is the instructions to install them all:
   
   `ln -s /usr/local/Cellar/opencv/3.2.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so cv2.so`
   
-  If your computer system aren't macos, you should download [OpenCV3.2.0](https://github.com/opencv/opencv/archive/3.2.0.zip) 
+  If your computer system aren't macOS Sierra, you should download [OpenCV3.2.0](https://github.com/opencv/opencv/archive/3.2.0.zip) 
   and then install it from source.
   
   Make sure the compile setting 'with-python3' is on, you could do that by using [cmake-gui](https://cmake.org).
@@ -46,5 +46,14 @@ Here is the instructions to install them all:
   `cd coco-master/PythonAPI/`
   
   `python setup.py build_ext install`
+
+## Usage
+Download the [mscoco datasets](http://mscoco.org/dataset/#download) first, you should only download '2014 Training images' and '2014 Train/Val object instances'.
+
+Tnen make a dir named 'coco', go inside and make two dir named 'images' and 'annotations'.
+
+Unzip '2014 Training images' to dir 'images', '2014 Train/Val object instances' to dir 'annotations'.
+
+At this time you could run `cd DeepMask\`、`python main.py` to see how the DeepMask does.
 
 
