@@ -50,10 +50,14 @@ Here is the instructions to install them all:
 ## Usage
 Download the [mscoco datasets](http://mscoco.org/dataset/#download) first, you should only download '2014 Training images' and '2014 Train/Val object instances'.
 
-Tnen make a dir named 'coco', go inside and make two dir named 'images' and 'annotations'.
+Make a dir named 'coco', go inside and make two dir named 'images' and 'annotations'.
 
 Unzip '2014 Training images' to dir 'images', '2014 Train/Val object instances' to dir 'annotations'.
 
-At this time you could run `cd DeepMask\`、`python main.py` to see how the DeepMask does.
+Run 
+`cd DeepMask\`
+
+`python main.py`
+
 
 
