@@ -26,11 +26,11 @@ Here is the instructions to install them all:
 
   `brew tap homebrew/science`
   
-  `brew install opencv3 --with-python3 --without-numpy`
+  `brew install opencv3 --with-python3 --without-python --without-numpy`
   
   `cd ~/anaconda/lib/python3.6/site-packages/`
   
-  `ln -s /usr/local/Cellar/opencv/3.2.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so cv2.so`
+  `ln -s /usr/local/Cellar/opencv3/3.2.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so cv2.so`
   
   If your computer system aren't macOS Sierra, you should download [OpenCV3.2.0](https://github.com/opencv/opencv/archive/3.2.0.zip) 
   and then install it from source.
