@@ -1,5 +1,5 @@
 # DeepMask
-The algorithm of DeepMask by Python3.
+A Keras implementation of DeepMask based on NIPS 2015 paper "Learning to Segment Object Candidates".
 
 ## Requirements
 ANACONDA、Keras、OpenCV3、mscoco
