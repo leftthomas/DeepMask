@@ -1,5 +1,5 @@
 # DeepMask
-A Keras implementation of DeepMask based on NIPS 2015 paper "Learning to Segment Object Candidates".
+A Keras implementation of DeepMask based on NIPS 2015 paper [Learning to Segment Object Candidates](https://arxiv.org/abs/1506.06204)
 
 ## Requirements
 ANACONDA、Keras、OpenCV3、mscoco
